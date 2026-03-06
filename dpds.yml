@@ -1,0 +1,142 @@
+---
+dataProductDescriptor: data-product-descriptor
+info:
+  fullyQualifiedName: urn:dpds:openlifeworlds:dataproducts:berlin-public-transport:1.0
+  name: Berlin Public Transport
+  version: '1.0'
+  domain: domain
+  owner:
+    id: Open Lifeworlds
+    name: Open Lifeworlds
+  id: berlin-public-transport
+  entityType:
+  displayName: Berlin Public Transport
+  description:
+  contactPoints:
+interfaceComponents:
+  outputPorts:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-networkx
+      fullyQualifiedName: berlin-networkx
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-public-transport-2024-00-02
+      fullyQualifiedName: berlin-public-transport-2024-00-02
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-public-transport-2024-08-10
+      fullyQualifiedName: berlin-public-transport-2024-08-10
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-public-transport-2024-16-18
+      fullyQualifiedName: berlin-public-transport-2024-16-18
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-public-transport-2024-00-02
+      fullyQualifiedName: berlin-public-transport-2024-00-02
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-public-transport-2024-08-10
+      fullyQualifiedName: berlin-public-transport-2024-08-10
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-public-transport-2024-16-18
+      fullyQualifiedName: berlin-public-transport-2024-16-18
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+  inputPorts:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-lor-geodata
+      fullyQualifiedName: berlin-lor-geodata
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-gtfs-source-aligned
+      fullyQualifiedName: berlin-gtfs-source-aligned
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+  discoveryPorts:
+  observabilityPorts:
+  controlPorts:
+internalComponents:
+components:
+tags:
+externalDocs:

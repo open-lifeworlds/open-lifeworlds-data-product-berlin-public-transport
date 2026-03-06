@@ -20,6 +20,62 @@
 
 ## Output Ports
 
+### berlin-networkx
+name: Berlin Networkx
+* owner: Open Lifeworlds
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/tree/main/data/02-silver/berlin-networkx
+* license: CC-BY 4.0
+* updated: 2026-03-06
+
+**Files**
+
+* [berlin-2024-avg-combined-edges.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/refs/heads/main/data/02-silver/berlin-networkx/berlin-2024-avg-combined-edges.geojson)
+* [berlin-2024-avg-combined-nodes.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/refs/heads/main/data/02-silver/berlin-networkx/berlin-2024-avg-combined-nodes.geojson)
+* [berlin-combined-2024-00-02.pkl](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/refs/heads/main/data/02-silver/berlin-networkx/berlin-combined-2024-00-02.pkl)
+* [berlin-combined-2024-08-10.pkl](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/refs/heads/main/data/02-silver/berlin-networkx/berlin-combined-2024-08-10.pkl)
+* [berlin-combined-2024-16-18.pkl](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/refs/heads/main/data/02-silver/berlin-networkx/berlin-combined-2024-16-18.pkl)
+* [berlin-combined-2024-avg.pkl](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/refs/heads/main/data/02-silver/berlin-networkx/berlin-combined-2024-avg.pkl)
+
+
+### berlin-public-transport-2024-00-02
+name: Berlin Public Transport 2024 00 02
+* owner: Open Lifeworlds
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/tree/main/data/02-silver/berlin-public-transport-2024-00-02
+* license: CC-BY 4.0
+* updated: 2026-03-06
+
+**Files**
+
+* [berlin-points-9-with-metrics.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/refs/heads/main/data/02-silver/berlin-public-transport-2024-00-02/berlin-points-9-with-metrics.geojson)
+* [berlin-points-9-with-reachable-area.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/refs/heads/main/data/02-silver/berlin-public-transport-2024-00-02/berlin-points-9-with-reachable-area.geojson)
+
+
+### berlin-public-transport-2024-08-10
+name: Berlin Public Transport 2024 08 10
+* owner: Open Lifeworlds
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/tree/main/data/02-silver/berlin-public-transport-2024-08-10
+* license: CC-BY 4.0
+* updated: 2026-03-06
+
+**Files**
+
+* [berlin-points-9-with-metrics.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/refs/heads/main/data/02-silver/berlin-public-transport-2024-08-10/berlin-points-9-with-metrics.geojson)
+* [berlin-points-9-with-reachable-area.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/refs/heads/main/data/02-silver/berlin-public-transport-2024-08-10/berlin-points-9-with-reachable-area.geojson)
+
+
+### berlin-public-transport-2024-16-18
+name: Berlin Public Transport 2024 16 18
+* owner: Open Lifeworlds
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/tree/main/data/02-silver/berlin-public-transport-2024-16-18
+* license: CC-BY 4.0
+* updated: 2026-03-06
+
+**Files**
+
+* [berlin-points-9-with-metrics.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/refs/heads/main/data/02-silver/berlin-public-transport-2024-16-18/berlin-points-9-with-metrics.geojson)
+* [berlin-points-9-with-reachable-area.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/refs/heads/main/data/02-silver/berlin-public-transport-2024-16-18/berlin-points-9-with-reachable-area.geojson)
+
+
 ### berlin-public-transport-2024-00-02
 name: Berlin Public Transport 2024 00 02
 * owner: Open Lifeworlds

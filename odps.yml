@@ -1,0 +1,49 @@
+---
+schema: https://openlifeworldss.org/v3.1/schema/odps.yaml
+version: '3.1'
+product:
+  en:
+    name: Berlin Public Transport
+    productID: berlin-public-transport
+    status: active
+    type: source-aligned
+    visibility: public
+    OutputFileFormats:
+      - geojson
+      - .json
+    brandSlogan:
+    categories: []
+    description:
+    logoURL: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-public-transport/refs/heads/main/logo-with-text.png
+    productSeries:
+    standards: []
+    tags:
+    useCases: []
+    valueProposition:
+    version: '1.0'
+  sla: []
+  dataAccess:
+  dataHolder:
+    URL: https://openlifeworlds.de
+    addressCountry:
+    addressLocality:
+    addressRegion:
+    streetAddress:
+    postalCode:
+    telephone:
+    aggregateRating:
+    businessDomain:
+    description:
+    logoURL:
+    parentOrganization:
+    ratingCount:
+    slogan:
+    taxID:
+    vatID:
+  dataOps:
+  dataQuality: []
+  license:
+  pricingPlans:
+  support:
+  recommendedDataProducts: []
+details:
