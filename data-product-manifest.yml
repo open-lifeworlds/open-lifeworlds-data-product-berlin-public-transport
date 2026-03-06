@@ -1,0 +1,27 @@
+---
+id: berlin-public-transport
+metadata:
+  name: Berlin Public Transport
+  owner: Open Lifeworlds
+  description:
+  url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport
+  license: CC-BY 4.0
+  updated: 2026-03-06
+  schema:
+input_ports:
+  - id: berlin-lor-geodata
+    manifest_url: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/refs/heads/main/data-product-manifest.yml
+  - id: berlin-gtfs-source-aligned
+    manifest_url: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data-product-manifest.yml
+transformation_steps:
+output_ports:
+observability:
+  quality:
+  operational:
+  slas:
+  security:
+consumers:
+use_cases:
+classification: consumer-aligned
+ubiquitous_language: []
+tags:

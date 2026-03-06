@@ -1,0 +1,16 @@
+*.iml
+/.idea
+
+*.DS_Store
+
+.venv
+
+**/__pycache__/
+**/*.zip
+
+/cache
+/data/01-bronze
+/data/02-silver/*
+!/data/02-silver/*-networkx/
+/data/02-silver/*-networkx/*
+!/data/02-silver/*-networkx/*.pkl

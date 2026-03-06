@@ -1,0 +1,14 @@
+[project]
+name = "berlin-public-transport"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "click>=8.2.1",
+    "open-lifeworlds-python-lib",
+    "rich>=14.1.0",
+]
+
+[tool.uv.sources]
+open-lifeworlds-python-lib = { git = "https://github.com/open-lifeworlds/open-lifeworlds-python-lib.git" }

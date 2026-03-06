@@ -1,0 +1,73 @@
+
+# Data Product Canvas - Berlin Public Transport
+
+## Metadata
+
+* owner: Open Lifeworlds
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport
+* license: CC-BY 4.0
+* updated: 2026-03-06
+
+## Input Ports
+
+### berlin-lor-geodata
+
+* manifest URL: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/refs/heads/main/data-product-manifest.yml
+
+### berlin-gtfs-source-aligned
+
+* manifest URL: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data-product-manifest.yml
+
+## Output Ports
+
+### berlin-public-transport-2024-00-02
+name: Berlin Public Transport 2024 00 02
+* owner: Open Lifeworlds
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/tree/main/data/03-gold/berlin-public-transport-2024-00-02
+* license: CC-BY 4.0
+* updated: 2026-03-06
+
+**Files**
+
+* [berlin-points-7-with-hexagons.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/refs/heads/main/data/03-gold/berlin-public-transport-2024-00-02/berlin-points-7-with-hexagons.geojson)
+* [berlin-points-8-with-hexagons.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/refs/heads/main/data/03-gold/berlin-public-transport-2024-00-02/berlin-points-8-with-hexagons.geojson)
+* [berlin-points-9-with-hexagons.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/refs/heads/main/data/03-gold/berlin-public-transport-2024-00-02/berlin-points-9-with-hexagons.geojson)
+
+
+### berlin-public-transport-2024-08-10
+name: Berlin Public Transport 2024 08 10
+* owner: Open Lifeworlds
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/tree/main/data/03-gold/berlin-public-transport-2024-08-10
+* license: CC-BY 4.0
+* updated: 2026-03-06
+
+**Files**
+
+* [berlin-points-7-with-hexagons.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/refs/heads/main/data/03-gold/berlin-public-transport-2024-08-10/berlin-points-7-with-hexagons.geojson)
+* [berlin-points-8-with-hexagons.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/refs/heads/main/data/03-gold/berlin-public-transport-2024-08-10/berlin-points-8-with-hexagons.geojson)
+* [berlin-points-9-with-hexagons.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/refs/heads/main/data/03-gold/berlin-public-transport-2024-08-10/berlin-points-9-with-hexagons.geojson)
+
+
+### berlin-public-transport-2024-16-18
+name: Berlin Public Transport 2024 16 18
+* owner: Open Lifeworlds
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/tree/main/data/03-gold/berlin-public-transport-2024-16-18
+* license: CC-BY 4.0
+* updated: 2026-03-06
+
+**Files**
+
+* [berlin-points-7-with-hexagons.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/refs/heads/main/data/03-gold/berlin-public-transport-2024-16-18/berlin-points-7-with-hexagons.geojson)
+* [berlin-points-8-with-hexagons.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/refs/heads/main/data/03-gold/berlin-public-transport-2024-16-18/berlin-points-8-with-hexagons.geojson)
+* [berlin-points-9-with-hexagons.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/refs/heads/main/data/03-gold/berlin-public-transport-2024-16-18/berlin-points-9-with-hexagons.geojson)
+
+
+## Classification
+
+**The nature of the exposed data (source-aligned, aggregate, consumer-aligned)**
+
+consumer-aligned
+
+
+---
+This data product canvas uses the template of [datamesh-architecture.com](https://www.datamesh-architecture.com/data-product-canvas).
