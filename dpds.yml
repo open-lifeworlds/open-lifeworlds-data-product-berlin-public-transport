@@ -123,8 +123,21 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-gtfs-source-aligned
-      fullyQualifiedName: berlin-gtfs-source-aligned
+      id: berlin-public-transport-gtfs-2024-00
+      fullyQualifiedName: berlin-public-transport-gtfs-2024-00
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-public-transport-gtfs-2024-00
+      fullyQualifiedName: berlin-public-transport-gtfs-2024-00
       entityType:
       name: ''
       version:

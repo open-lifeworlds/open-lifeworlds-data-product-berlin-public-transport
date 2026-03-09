@@ -21,8 +21,10 @@
 ### Input Ports
 #### berlin-lor-geodata
 * fully qualified name: berlin-lor-geodata
-#### berlin-gtfs-source-aligned
-* fully qualified name: berlin-gtfs-source-aligned
+#### berlin-public-transport-gtfs-2024-00
+* fully qualified name: berlin-public-transport-gtfs-2024-00
+#### berlin-public-transport-gtfs-2024-00
+* fully qualified name: berlin-public-transport-gtfs-2024-00
 
 ### Output Ports
 #### berlin-networkx

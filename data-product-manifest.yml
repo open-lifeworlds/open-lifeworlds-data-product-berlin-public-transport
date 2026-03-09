@@ -6,13 +6,39 @@ metadata:
   description:
   url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport
   license: CC-BY 4.0
-  updated: 2026-03-06
+  updated: 2026-03-09
   schema:
 input_ports:
   - id: berlin-lor-geodata
     manifest_url: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-geodata/refs/heads/main/data-product-manifest.yml
-  - id: berlin-gtfs-source-aligned
-    manifest_url: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data-product-manifest.yml
+  - id: berlin-public-transport-gtfs-2024-00
+    metadata:
+      name: Berlin Public Transport Gtfs 2024 00
+      owner: Open Data Product
+      description:
+      url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/02-silver/berlin-public-transport-gtfs-2024-00
+      license: CC-BY 4.0
+      updated: 2026-02-23
+      schema:
+    files:
+      - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/02-silver/berlin-public-transport-gtfs-2024-00/berlin-public-transport-gtfs-2024-00.zip
+  - id: berlin-public-transport-gtfs-2024-00
+    metadata:
+      name: Berlin Public Transport Gtfs 2024 00
+      owner: Open Data Product
+      description:
+      url: https://github.com/open-data-product/open-data-product-berlin-gtfs-source-aligned/tree/main/data/03-gold/berlin-public-transport-gtfs-2024-00
+      license: CC-BY 4.0
+      updated: 2026-02-23
+      schema:
+    files:
+      - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/03-gold/berlin-public-transport-gtfs-2024-00/berlin-public-transport-gtfs-2024-00-bus.geojson
+      - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/03-gold/berlin-public-transport-gtfs-2024-00/berlin-public-transport-gtfs-2024-00-ferry.geojson
+      - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/03-gold/berlin-public-transport-gtfs-2024-00/berlin-public-transport-gtfs-2024-00-other.geojson
+      - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/03-gold/berlin-public-transport-gtfs-2024-00/berlin-public-transport-gtfs-2024-00-regional-train.geojson
+      - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/03-gold/berlin-public-transport-gtfs-2024-00/berlin-public-transport-gtfs-2024-00-s-bahn.geojson
+      - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/03-gold/berlin-public-transport-gtfs-2024-00/berlin-public-transport-gtfs-2024-00-tram.geojson
+      - https://media.githubusercontent.com/media/open-data-product/open-data-product-berlin-gtfs-source-aligned/refs/heads/main/data/03-gold/berlin-public-transport-gtfs-2024-00/berlin-public-transport-gtfs-2024-00-u-bahn.geojson
 transformation_steps:
 output_ports:
   - id: berlin-networkx
@@ -22,7 +48,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/tree/main/data/02-silver/berlin-networkx
       license: CC-BY 4.0
-      updated: 2026-03-06
+      updated: 2026-03-09
       schema:
     files:
       - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/refs/heads/main/data/02-silver/berlin-networkx/berlin-2024-avg-combined-edges.geojson
@@ -38,7 +64,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/tree/main/data/02-silver/berlin-public-transport-2024-00-02
       license: CC-BY 4.0
-      updated: 2026-03-06
+      updated: 2026-03-09
       schema:
     files:
       - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/refs/heads/main/data/02-silver/berlin-public-transport-2024-00-02/berlin-points-9-with-metrics.geojson
@@ -50,7 +76,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/tree/main/data/02-silver/berlin-public-transport-2024-08-10
       license: CC-BY 4.0
-      updated: 2026-03-06
+      updated: 2026-03-09
       schema:
     files:
       - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/refs/heads/main/data/02-silver/berlin-public-transport-2024-08-10/berlin-points-9-with-metrics.geojson
@@ -62,7 +88,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/tree/main/data/02-silver/berlin-public-transport-2024-16-18
       license: CC-BY 4.0
-      updated: 2026-03-06
+      updated: 2026-03-09
       schema:
     files:
       - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/refs/heads/main/data/02-silver/berlin-public-transport-2024-16-18/berlin-points-9-with-metrics.geojson
@@ -74,7 +100,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/tree/main/data/03-gold/berlin-public-transport-2024-00-02
       license: CC-BY 4.0
-      updated: 2026-03-06
+      updated: 2026-03-09
       schema:
     files:
       - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/refs/heads/main/data/03-gold/berlin-public-transport-2024-00-02/berlin-points-7-with-hexagons.geojson
@@ -87,7 +113,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/tree/main/data/03-gold/berlin-public-transport-2024-08-10
       license: CC-BY 4.0
-      updated: 2026-03-06
+      updated: 2026-03-09
       schema:
     files:
       - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/refs/heads/main/data/03-gold/berlin-public-transport-2024-08-10/berlin-points-7-with-hexagons.geojson
@@ -100,7 +126,7 @@ output_ports:
       description:
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/tree/main/data/03-gold/berlin-public-transport-2024-16-18
       license: CC-BY 4.0
-      updated: 2026-03-06
+      updated: 2026-03-09
       schema:
     files:
       - https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-public-transport/refs/heads/main/data/03-gold/berlin-public-transport-2024-16-18/berlin-points-7-with-hexagons.geojson
