@@ -67,6 +67,20 @@ def calculate_commute_times(
     # Convert node IDs to integer
     graph = nx.convert_node_labels_to_integers(graph, label_attribute="original_id")
 
+    # Calculate distances to target points
+    reverse_graph = graph.reverse()
+    target_point_durations = {}
+    for name, reference_point in target_points:
+        target_node = ox.distance.nearest_nodes(
+            graph, reference_point.x, reference_point.y
+        )
+
+        # Calculate travel times FROM all nodes TO this target node
+        durations = nx.single_source_dijkstra_path_length(
+            reverse_graph, source=target_node, weight="weight"
+        )
+        target_point_durations[name] = durations
+
     processed_count = 0
     for feature in tqdm(
         geojson["features"],
@@ -83,12 +97,12 @@ def calculate_commute_times(
         ):
             continue
 
-        point = feature["geometry"]["coordinates"]
+        reference_point = feature["geometry"]["coordinates"]
         enhance_feature(
             graph,
             feature,
-            reference_point=Point(point[0], point[1]),
-            target_points=target_points,
+            reference_point=Point(reference_point[0], reference_point[1]),
+            target_point_durations=target_point_durations,
         )
 
         processed_count += 1
@@ -111,22 +125,15 @@ def enhance_feature(
     graph,
     feature,
     reference_point: Point,
-    target_points: [Point],
+    target_point_durations: {str, Point},
 ):
-    for target_point in target_points:
-        name = target_point[0]
-        point = target_point[1]
+    start_node_id = ox.distance.nearest_nodes(
+        graph, reference_point.x, reference_point.y
+    )
 
-        start_node_id = ox.distance.nearest_nodes(
-            graph, reference_point.x, reference_point.y
-        )
-        end_node_id = ox.distance.nearest_nodes(
-            graph, point.x, point.y
-        )
-
-        duration = nx.shortest_path_length(graph, source=start_node_id, target=end_node_id, weight="weight")
-
-        # Add properties to feature
+    for name, durations in target_point_durations.items():
+        # Look up duration
+        duration = durations[start_node_id]
         feature["properties"][f"commute_time_{name}"] = duration / 60
 
     return feature
